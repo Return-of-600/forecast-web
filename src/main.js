@@ -12,6 +12,7 @@ import DocsExample from '@/components/DocsExample'
 import DocsIcons from '@/components/DocsIcons'
 
 const app = createApp(App)
+
 app.use(createPinia())
 app.use(router)
 app.use(CoreuiVue)
