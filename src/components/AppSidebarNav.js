@@ -3,7 +3,8 @@ import { RouterLink, useRoute } from 'vue-router'
 
 import { cilExternalLink } from '@coreui/icons'
 import { CBadge, CSidebarNav, CNavItem, CNavGroup, CNavTitle } from '@coreui/vue'
-import nav from '@/_nav.js'
+// import nav from '@/_nav.js'
+import nav from '@/_nav_test.js'
 
 import simplebar from 'simplebar-vue'
 import 'simplebar-vue/dist/simplebar.min.css'

@@ -38,6 +38,7 @@ onMounted(() => {
           <CNavLink href="#">Settings</CNavLink>
         </CNavItem>
       </CHeaderNav>
+      
       <CHeaderNav class="ms-auto">
         <CNavItem>
           <CNavLink href="#">
@@ -55,6 +56,7 @@ onMounted(() => {
           </CNavLink>
         </CNavItem>
       </CHeaderNav>
+
       <CHeaderNav>
         <li class="nav-item py-1">
           <div class="vr h-100 mx-2 text-body text-opacity-75"></div>
@@ -101,8 +103,13 @@ onMounted(() => {
         <AppHeaderDropdownAccnt />
       </CHeaderNav>
     </CContainer>
-    <CContainer class="px-4" fluid>
+
+    <!-- 현재 접속 화면 경로 표시 -->
+    <!-- 
+    <CContainer class="px-4" style="height: 30px" fluid>
       <AppBreadcrumb />
-    </CContainer>
+    </CContainer>  
+    -->
+    
   </CHeader>
 </template>
