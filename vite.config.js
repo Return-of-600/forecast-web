@@ -10,6 +10,7 @@ export default defineConfig({
     vueDevTools(),
   ],
   base: './',
+  // mode: 'development', // 'production'
   css: {
     postcss: {
       plugins: [
