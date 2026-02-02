@@ -413,6 +413,11 @@ export default [
         name: 'Error 500',
         to: '/pages/500',
       },
+      {
+        component: 'CNavItem',
+        name: 'ToDoList',
+        to: '/pages/ToDoList',
+      },
     ],
   },
 ]
